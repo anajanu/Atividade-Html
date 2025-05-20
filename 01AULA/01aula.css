@@ -1,0 +1,79 @@
+
+style
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(43, 0, 33);
+    color: antiquewhite;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: large;
+
+}
+
+nav {
+    background-color: #272727;
+    display: flex;
+    padding: 8px;
+}
+
+    nav img {
+        width: 20%;
+        height: 50%;
+    }
+
+    nav p {
+        color: #ff0c0c;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    nav button {
+        background-color: #3e0746;
+        color: #ff0c0c;
+        border: solid 4px rgb(43, 0, 33);
+        margin-left: ;
+        margin-right: ;
+        height: ;
+        border-radius: ;
+        width: ;
+        
+    }
+
+    nav button:hover{
+          background-color: #f17fb4;
+    }
+
+    nav button a { 
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    main  {
+        background-color: hwb(298 36% 41%);
+        padding: 2rem;
+        color: rgb(255, 255, 255);
+        border-radius: 16px;
+        margin: 1;
+    }
+    main h1{
+        background-color: #3e0746;
+
+    }
+    main span {
+        color: #ff0c0c;
+    }
+    main section p {
+        line-height: 170%;
+        background-color: #ff8686;
+        border-radius: ;
+        padding: 20px;
+    }
+    form {
+        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+    }
+   

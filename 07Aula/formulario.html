@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="background-image: url(folhass.png);">
+    
+    <center>
+        
+    <h1>Senso 2025 de folha amarela</h1>
+    <form action="mailto:anacjanuario@outlook" method="post">
+    <!--For= para/ esse çabreç  é para o elemento de id nomeUsuario-->
+ <label for="nomeUsuario">Insira seu nome </label> <!--Rotulo-->
+ <br>
+ <input type="ana" id="nomeUsuario" size="50" maxlength="50">
+ <!--A prpriedade maxlenght determina a quantidade máxima de caracteres que seu input pode receber-->
+ <br>
+ <br>
+ <p>Escolha APENAS uma Folha Amarela</p>
+ <!--O radio permite que o usuario escolha apensas uma opção de várias para identificar que rádios 
+    diferentes respondem a mesma pergunta colocamos o mesmo nome em todos para identificar que rádios do outro é seu id, que deve ser único-->
+<input type="radio" name="folhaAmarela" id="folhaAmarelaBrilhante" value="Folha Amarela Brilhante">
+<label for="folhaAmarelaBrilhante">Folha Amarela Brilhante</label>
+
+<br>
+                                                                                                                                                                  
+<input type="radio" name="folhaAmarela" id="folhaAmarelaRessecada" value="Folha Amarela Ressecada">
+<label for="folhaAmarelaRessecada">Folha Amarela Ressecada</label>
+
+<br>
+
+<input type="radio" name="folhaAmarela" id="folhaAmarelaDeOutono" value="Folha Amarela de Outono">
+<label for="folhaAmarelaDeOutono">Folha Amarela de Outono</label>
+
+<br>
+
+<input type="radio" name="folhaAmarela" id="folhaAmarelaPodre" value="Folha Amarela Podre">
+<label for="folhaAmarelaPodre">Folha Amarela Podre</label>
+
+<br>
+<label for="comentarioFolha">Justifique sua Folha </label>
+<br>     
+
+<!--textArea é um elemento do formulário que serve para inserir texto em grande quantidade -->
+<textarea name="comentarioFolha" id="comentarioFolha" cols="30" rows="10"></textarea>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Submit faz o envio dos dados preenchidos pelo usuario. O atributo Value faz com que um textp apareça dentro do imput-->
+ <input type="submit" value="Enviar Formulário">
+ </form>
+
+</body>
+</html>

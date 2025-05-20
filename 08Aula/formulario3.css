@@ -1,0 +1,36 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+ }
+
+header {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(218, 0, 116);
+}
+h1 {
+    color: azure;
+}
+
+img {
+    width: 30vh;
+    height: 20vh;
+}
+
+label {
+    color: rgb(240, 130, 147);
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+}
+form {
+    justify-content: center;
+    display: grid;
+}
+
+#dadosCliente {
+    background-color:cornsilk
+}
+

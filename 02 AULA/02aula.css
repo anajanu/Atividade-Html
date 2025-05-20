@@ -28,12 +28,47 @@ header nav ul {
     display: flex;
     list-style-type: none;
     width: 100%;  
+    align-items: center;
     
+    gap:350px;
 }
 header nav ul li {
   color: rgb(255, 0, 0);
   text-align: center;
 }
+header ul li button{
+    background-color: #7a0000;
+    font-size:x-large;
+    border-radius: 10px;
+}
 header ul li a {
       text-decoration: none;
+      color: black;
 }
+.box {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 15px;
+    display: flex;
+    
+
+}
+
+.box h1 {
+    color: rgb(255, 25, 25);
+}
+.box.box:hover {
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+.filmesimagem {
+    width: 10vw;
+    height: 20vh;
+    margin-left: 20;
+    margin-right: 20;
+}
+.box2 {
+    border: ;
+    background-color: rgb(0, 0, 0);
+} 

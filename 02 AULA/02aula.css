@@ -74,3 +74,6 @@ header ul li a {
 } .box2 img {
     display: flex;
 }
+footer {
+    background-color: #7a0000;
+}
